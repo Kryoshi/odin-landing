@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-size: 18px;
+    color: #1f2937;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -98,7 +99,6 @@ ul {
 }
 
 .infotext {
-    color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
@@ -124,6 +124,23 @@ ul {
 
 .item .subtext {
     text-align: center;
+}
+
+.quote {
+    padding: 48px 0;
+    background-color: #e5e7eb;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+.quote-footer {
+    font-weight: bold;
+    text-align: right;
 }
 
 .footer {
