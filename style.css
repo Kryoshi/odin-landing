@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
+    font-size: 18px;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -21,7 +22,7 @@ ul {
 
 .container {
     margin: auto;
-    width: 80%;
+    width: 70%;
 }
 
 .header, .footer {
@@ -34,6 +35,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 96px;
 }
 
 .logo {
@@ -46,6 +48,45 @@ ul {
     gap: 16px;
     flex-wrap: wrap;
     justify-content: flex-end;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 96px;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header .subtext {
+    color: #e5e7eb;
+}
+
+.right, .left {
+    width: 500px;
+}
+
+.hero .right {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 32px;
 }
 
 .footer {
